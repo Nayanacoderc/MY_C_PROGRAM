@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main() {
+    printf("Name:Nayana K\n");
+    printf("Age:18\n");
+    printf("Location: Tumkur, Karnataka ");
+}
