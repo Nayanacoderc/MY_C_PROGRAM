@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int n=10;
+    int a=0, b=1;
+    int next,i;
+    printf("Fibonacci Series: %d %d", a, b);
+    for(i = 3; i<=n;i++);{
+        next = a+b;
+        printf("%d", next);
+    a=b;
+    b=next;
+}
+}
