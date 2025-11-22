@@ -1,0 +1,20 @@
+#include <stdio.h>
+void preview(int a, int b) {  
+    int t = a;
+    a = b;
+    b = t;
+    printf("Preview swap: %d %d\n", a, b);
+}
+void realSwap(int *a, int *b) { 
+    int t = *a;
+    *a = *b;
+    *b = t;
+}
+int main() {
+    int x, y;
+    printf("Enter two values: ");
+    scanf("%d %d", &x, &y);
+    preview(x, y);      
+    realSwap(&x, &y);
+    printf("After real swap: %d %d\n", x, y);
+}
