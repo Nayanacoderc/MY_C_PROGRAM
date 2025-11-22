@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int u1,u2,p1,p2,total;
+    printf("enter uints of product1 and product2");
+    scanf("%d %d",&u1,&u2);
+    printf("enter price of product1 and producr2 ");
+    scanf("%d %d", &p1,&p2);
+    total=(u1*p1)+(u2*p2);
+    printf("enter total revenue=%d");
+}
